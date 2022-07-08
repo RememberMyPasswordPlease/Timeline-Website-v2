@@ -1,0 +1,77 @@
+@import '_variables.scss';
+
+#Appbar {
+    width: 100%;
+    height: 4em;
+    display: flex;
+    flex-direction: column;
+
+    & #Toolbar {
+        background-color: $colourThree;
+        display: flex;
+        column-gap: 2em;
+
+        & #MenuIcon {
+            color: white;
+        }
+    }
+
+    & #ProgressBar {
+        height: 0.5em;
+    }
+}
+
+#Drawer {
+    
+    & #DrawerPaper {
+        background-color: $colourTwo;
+        height: 100%;
+
+        & .ListItem {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+
+            & .ListButton {
+                
+                & .ListIcon {
+                    color: white;
+                }
+
+            }
+
+        }
+    }
+}
+
+#Footer {
+    width: 100%;
+    height: 14em;
+    background-color: #282d32;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & #Socials {
+        display: flex;
+        justify-content: center;
+        column-gap: 1em;
+
+        & a {
+            color: #f0f9ff;
+            font-size: 2.8em;
+            opacity: 1;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    & h2 {
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 1em;
+    }
+
+}

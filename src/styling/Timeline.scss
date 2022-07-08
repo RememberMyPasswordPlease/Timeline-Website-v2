@@ -1,0 +1,95 @@
+@import "./variables";
+
+#Timeline {
+
+    & #Title {
+        text-align: center;
+        padding: 1em;
+    }
+
+    & .TimelineItem {
+
+        & .Content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 24em;
+
+            & .Card {
+                color: #DAD7CD;
+                display: flex;
+                flex-direction: column;
+                height: 95%;
+                text-align: start;
+                background-color: #588157;
+
+                &.Media {
+                    width: 45%;
+                    justify-content: center;
+                    align-items: center;
+                    row-gap: 1em;
+
+                    & img {
+                        background-color: white;
+                        width: 18em;
+                        height: 16em;
+                    }
+                }
+
+                &.Info {
+                    width: 50%;
+                    transition: opacity 400ms ease-in-out;
+                }
+
+            }
+        }
+
+        .TimelineBody {
+
+            &.Dot {
+                width: 1.2em;
+                height: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #344E41;
+            }
+
+            &.Line {
+                width: 0.3em;
+                background-color: #3A5A40;
+            }
+        }
+        
+
+    
+    }
+
+    & li {
+
+        &:nth-child(even) {
+
+            & .Card {
+
+                @media screen and (min-width: 768px){
+
+                    &.Media {
+                        background-color: #496E4C;
+                        order: 2;
+                    }
+        
+                    &.Info {
+                        background-color: #496E4C;
+                        order: 1;
+                    }
+
+                }
+                
+            }
+    
+        }
+
+    }
+
+}

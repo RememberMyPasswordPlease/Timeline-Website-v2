@@ -1,0 +1,26 @@
+
+
+#Biblio {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    & #Blob {
+        width: 80%;
+        background-color: #ffcb77;
+        color: #463f3a;
+        border-radius: 3em;
+        margin: 4em;
+        padding: 1.5em;
+        text-align: center;
+
+        & #RefList {
+            text-align: start;
+
+            & li {
+                padding: 1em;
+                margin: 1.8em;
+            }
+        }
+    }
+}

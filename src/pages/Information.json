@@ -1,0 +1,71 @@
+{
+    "Home": [
+        {
+            "title": "Lorem Ipsum",
+            "description": "Lorem Ipsum",
+            "img": "Lorem Ipsum",
+            "caption": "Lorem Ipsum"
+        },
+        {
+            "title": "Lorem Ipsum",
+            "description": "Lorem Ipsum",
+            "img": "Lorem Ipsum",
+            "caption": "Lorem Ipsum"
+        },
+        {
+            "title": "Lorem Ipsum",
+            "description": "Lorem Ipsum",
+            "img": "Lorem Ipsum",
+            "caption": "Lorem Ipsum"
+        }
+    ],
+
+    "Socials": [
+        {
+            "name": "github",
+            "link": "https://github.com/RememberMyPasswordPlease"
+        },
+        {
+            "name": "instagram",
+            "link": "https://www.instagram.com/pedro.rodriguez2009/"
+        }
+    ],
+
+    "References": [
+        "Lorem Ipsum",
+        "Lorem Ipsum"
+    ],
+
+    "Timeline": [
+        {
+            "title": "Lorem Ipsum",
+            "stage": "Lorem Ipsum",
+            "image": "",
+            "description": "Lorem Ipsum"
+        },
+        {
+            "title": "Lorem Ipsum",
+            "stage": "Lorem Ipsum",
+            "image": "",
+            "description": "Lorem Ipsum"
+        },
+        {
+            "title": "Lorem Ipsum",
+            "stage": "Lorem Ipsum",
+            "image": "",
+            "description": "Lorem Ipsum"
+        },
+        {
+            "title": "Lorem Ipsum",
+            "stage": "Lorem Ipsum",
+            "image": "",
+            "description": "Lorem Ipsum"
+        },
+        {
+            "title": "Lorem Ipsum",
+            "stage": "Lorem Ipsum",
+            "image": "",
+            "description": "Lorem Ipsum"
+        }
+    ]
+}
