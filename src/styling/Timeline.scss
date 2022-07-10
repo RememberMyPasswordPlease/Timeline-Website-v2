@@ -48,8 +48,9 @@
         .TimelineBody {
 
             &.Dot {
-                width: 1.2em;
-                height: 1.2em;
+                width: 1.3em;
+                height: 1.3em;
+                font-size: 1em;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -57,7 +58,7 @@
             }
 
             &.Line {
-                width: 0.3em;
+                width: 0.5em;
                 background-color: #3A5A40;
             }
         }

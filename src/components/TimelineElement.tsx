@@ -16,11 +16,10 @@ import {
 
 interface TimelineElementData {
     title: string,
-    stage: string,
     image: string,
     description: string,
     last: boolean,
-    index: number
+    index: string
 }
 
 interface State {
@@ -64,7 +63,7 @@ class TimelineElement extends React.Component<TimelineElementData, State> {
                             alt={this.props.title}
                         />
                         <CardContent>
-                            <Typography variant="h5" component="div"> { this.props.stage } </Typography>
+                            <Typography variant="h5" component="div"> { this.props.title } </Typography>
                         </CardContent>
                     </Card>
 

@@ -1,22 +1,22 @@
 {
     "Home": [
         {
-            "title": "Lorem Ipsum",
-            "description": "Lorem Ipsum",
-            "img": "Lorem Ipsum",
-            "caption": "Lorem Ipsum"
+            "title": "Magnitude",
+            "description": "Magnitude is the unit of measurement, brightness of a star is measured. The lower the magnitude, the brighter the star is. Each magnitude is 2.512 brighter than the next magnitude. For example magnitude 1 is 2.512x brighter than magnitude 2.",
+            "img": "https://cdn.mos.cms.futurecdn.net/KuXaAMx2TYaBezspWDxbZ5.jpg",
+            "caption": "Magnitude"
         },
         {
-            "title": "Lorem Ipsum",
-            "description": "Lorem Ipsum",
-            "img": "Lorem Ipsum",
-            "caption": "Lorem Ipsum"
+            "title": "Apparent vs Absolute Magnitude",
+            "description": "Apparent magnitude is how bright the star is viewed from Earth, while Absolute magnitude is how bright the star would be, if it was 10 parsecs away from Earth.",
+            "img": "https://www.schoolsobservatory.org/sites/default/files/astro/Pleiades_hubble.jpg",
+            "caption": "Apparent vs Absolute Magnitude"
         },
         {
-            "title": "Lorem Ipsum",
-            "description": "Lorem Ipsum",
-            "img": "Lorem Ipsum",
-            "caption": "Lorem Ipsum"
+            "title": "The Hertzsprung-Russell Diagram",
+            "description": "The Hertzsprung-Russell Diagram (HR Diagram) plots stars using their absolute magnitude against their colour/temperature. The diagram identifies a star’s stage of life using its temperature and absolute magnitude.",
+            "img": "https://www.atnf.csiro.au/outreach//education/senior/cosmicengine/images/stars/hrgenericsml.jpg",
+            "caption": "The Hertzsprung-Russell Diagram"
         }
     ],
 
@@ -32,40 +32,74 @@
     ],
 
     "References": [
-        "Lorem Ipsum",
-        "Lorem Ipsum"
+        "(2022). Retrieved 8 July 2022, from https://www.washoeschools.net/cms/lib/NV01912265/Centricity/Domain/888/PDFpptLife%20Cycles%20of%20Stars.pdf",
+        "The formation and life cycle of stars - The life cycle of a star - AQA - GCSE Physics (Single Science) Revision - AQA - BBC Bitesize. (2022). Retrieved 8 July 2022, from https://www.bbc.co.uk/bitesize/guides/zpxv97h/revision/1",
+        "The Life Cycle Of A Star:. (2022). Retrieved 8 July 2022, from https://futurism.com/the-life-cycle-of-a-star",
+        "Life Cycle of a Star - Seven Main Stages of a Star - Stellar Evolution, Video, and FAQs. (2022). Retrieved 8 July 2022, from https://byjus.com/physics/life-cycle-of-stars/",
+        "Complete Life Cycle of a Star. (2022). Retrieved 9 July 2022, from https://sciencing.com/complete-life-cycle-star-5439291.html",
+        "Background: Life Cycles of Stars. (2022). Retrieved 9 July 2022, from https://imagine.gsfc.nasa.gov/educators/lessons/xray_spectra/background-lifecycles.html#:~:text=A%20star's%20life%20cycle%20is,from%20which%20it%20was%20born.",
+        "Stellar Magnitude | National Schools' Observatory. (2022). Retrieved 10 July 2022, from https://www.schoolsobservatory.org/learn/maths/brightness/magnitude",
+        "Khillar, S. (2022). Difference Between Absolute and Apparent Magnitude | Difference Between. Retrieved 10 July 2022, from http://www.differencebetween.net/science/difference-between-absolute-and-apparent-magnitude/",
+        "Apparent and Absolute Magnitudes . (2022). Retrieved 10 July 2022, from https://www.phys.ksu.edu/personal/wysin/astro/magnitudes.html",
+        "Stellar Evolution | COSMOS. (2022). Retrieved 10 July 2022, from https://astronomy.swin.edu.au/cosmos/s/Stellar+Evolution",
+        "Hertzsprung-Russell Diagram | COSMOS. (2022). Retrieved 10 July 2022, from https://astronomy.swin.edu.au/cosmos/h/hertzsprung-russell+diagram",
+        "Introduction to the Hertzsprung-Russell Diagram. (2022). Retrieved 10 July 2022, from https://www.atnf.csiro.au/outreach/education/senior/astrophysics/stellarevolution_hrintro.html"
     ],
 
     "Timeline": [
         {
-            "title": "Lorem Ipsum",
-            "stage": "Lorem Ipsum",
-            "image": "",
-            "description": "Lorem Ipsum"
+            "title": "Nebula",
+            "image": "https://spaceplace.nasa.gov/nebula/en/nebula1.en.jpg",
+            "index": "1",
+            "description": "Beginning of the Life cycle of a Star is a Nebula. A Nebula is a large cloud of gas and dust that is primarily made up of Hydrogen."
         },
         {
-            "title": "Lorem Ipsum",
-            "stage": "Lorem Ipsum",
-            "image": "",
-            "description": "Lorem Ipsum"
+            "title": "Protostar",
+            "image": "https://planetfacts.org/wp-content/uploads/2011/09/protostar.jpg",
+            "index": "2",
+            "description": "The Nebula clumps together and starts to undergo nuclear fusion, fusing hydrogen molecules into helium, generating energy."
         },
         {
-            "title": "Lorem Ipsum",
-            "stage": "Lorem Ipsum",
-            "image": "",
-            "description": "Lorem Ipsum"
+            "title": "Main sequence Star",
+            "image": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3Acbbd4a805436be7e3dba4f5fd0c964e5b84dc0eae377762c3c26813e%2BIMAGE_TINY%2BIMAGE_TINY.1",
+            "index": "3",
+            "description": "The main sequence is the stage, that the sun is at. The star continues to undergo nuclear fusion."
         },
         {
-            "title": "Lorem Ipsum",
-            "stage": "Lorem Ipsum",
-            "image": "",
-            "description": "Lorem Ipsum"
+            "title": "Red Giant",
+            "image": "https://imageio.forbes.com/blogs-images/jamiecartereurope/files/2019/07/536_Sun.jpg?format=jpg&width=960",
+            "index": "4",
+            "description": "Once all the Hydrogen molecules have been fused together to form Helium molecules, the star will begin to expand. The star will also begin to cool."
         },
         {
-            "title": "Lorem Ipsum",
-            "stage": "Lorem Ipsum",
-            "image": "",
-            "description": "Lorem Ipsum"
+            "title": "Fusion of Helium",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/59a422624bbe6f125a72e856/The-famed-planetary-nebula-NGC-7293--the-Helix-Nebula--and-its-central-white-dwarf-/960x0.jpg?height=711&width=711&fit=bounds",
+            "index": "5",
+            "description": "Helium begins to fuse together to form Carbon. Depending on the mass of the star, the star will either turn into a White Dwarf (6a) or a Supernova (6b)"
+        },
+        {
+            "title": "White dwarf",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/572d35f74bbe6f123f286028/Sirius-A-and-B--a-normal--Sun-like--star-and-a-white-dwarf-star-in-a-binary-system-/960x0.jpg?format=jpg&width=960",
+            "index": "6a",
+            "description": "For a star with less than 8 solar masses, the red giant core will shrink and the outer shells will blast away, forming a White Dwarf. Which will eventually cool to become a Black Dwarf."
+        },
+        {
+            "title": "Supernova",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/6241728fbefd2e08aa6edef5/The-many-sides-of-the-supernova-remnant-Cassiopeia-A--Located-10-000-light-years-away/960x0.jpg?format=jpg&width=960",
+            "index": "6b",
+            "description": "For a massive star with more than 8 solar masses, the red giant will continue to grow until it explodes violently, depending on the mass, causing it to either form a black hole (7b) or a neutron star (7a)"
+        },
+        {
+            "title": "Neutron Star",
+            "image": "https://images.theconversation.com/files/465905/original/file-20220530-22-ktw8io.jpeg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+            "index": "7a",
+            "description": "Neutron Stars are stars after a supernova with extremely dense cores."
+        },
+        {
+            "title": "Black Hole",
+            "image": "https://assets.wired.com/photos/w_2064/wp-content/uploads/2020/11/Culture_blackhole_1178748615.jpg",
+            "index": "7b",
+            "description": "Big enough stars will eventually form a black hole. Black holes gravity is strong enough that light cannot escape it."
         }
     ]
 }
