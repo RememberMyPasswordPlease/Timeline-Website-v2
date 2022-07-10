@@ -39,11 +39,10 @@ class TimelinePage extends React.Component<Props, State> {
                         Data.map((item, index) => (
                         <TimelineElement 
                             image={item.image} 
-                            stage={item.stage} 
                             title={item.title} 
                             description={item.description}
                             last={(Data.length - 1) === index}
-                            index={index}
+                            index={item.index}
                         />))
                     }
                 </Timeline>

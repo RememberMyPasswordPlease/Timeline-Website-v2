@@ -46,12 +46,14 @@ class Section extends React.Component<SectionProps, {}> {
                         image={this.data.img}
                         alt={this.data.title}
                     />
-                    <CardContent>{this.data.caption}</CardContent>
+                    <CardContent>
+                        <Typography variant="h6">{this.data.caption}</Typography>
+                    </CardContent>
                 </Card>
                 <Card className="Content">
                     <CardContent>
-                        <Typography>{this.data.title}</Typography>
-                        <Typography>{this.data.description}</Typography>
+                        <Typography variant="h5" gutterBottom >{this.data.title}</Typography>
+                        <Typography variant="body1">{this.data.description}</Typography>
                     </CardContent>
                         
                 </Card>
